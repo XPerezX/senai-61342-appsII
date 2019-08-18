@@ -1,0 +1,20 @@
+<?php
+
+if($_POST['usuario'] == "user" && $_POST['senha'] == "123456"){
+	echo "bem vindo hacker!";
+} else {
+	echo "dados incorretos, tente de novo";
+}
+
+?>
+
+<form method="POST">
+	<input name="usuario" type="text" placeholder="usuario"></input>
+	<input name="senha" type="password" placeholder="senha"></input>
+	<input type="submit" value="enviar"></input>
+</form>
+
+
+<h1>Exercício</h1>
+
+Fazer calculadora usando Get ou Post
